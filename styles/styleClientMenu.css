@@ -1,0 +1,113 @@
+@charset 'UTF-8';
+
+@font-face{
+	font-family: dafont;
+	src: url(../font/unionagrochem.ttf);
+}
+
+:root{
+	--color0: #EEEEEE;
+	--color1: #000000;
+	--color2: #EDD9CA;
+	--color3: #AD9079;
+	--color4: #5E9198;
+	
+	--mainFont: 'Times New Roman', sans-serif;
+	--hightlightFont: 'dafont';
+}
+
+
+*{
+	font-family: var(--mainFont);
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	color: var(--color0);
+}
+
+header{
+	padding: 10px;
+	background-color: var(--color3);
+}
+
+header h1{
+	font-family: var(--hightlightFont);
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	color: var(--color0);
+}
+
+body{
+	background-color: var(--color0);
+}
+
+
+main{
+	max-width: 800px;
+	margin: 0px auto 30px auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 20px 50px;
+	box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: var(--color2);
+}
+
+main h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--color3);
+}
+
+main div>div{
+	border: dashed 1px var(--color3);
+	border-radius: 10px;
+	margin: 20px 0px;
+}
+
+main p{
+	font-size: 1.50em;
+	font-weight: bold;
+	text-indent: 10px;
+	margin: 10px;
+	color: var(--color0);
+	background-color: var(--color3);
+}
+
+main>div>a{
+	width: 60px;
+}
+
+main img{
+	max-width: 60px;
+	margin: 20px 3px;
+	padding: 9px;
+}
+
+main img:hover{
+	background-color: var(--color0);
+}
+
+main a{
+	text-decoration: none;
+	color: var(--color3);
+}
+
+button{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 3px;
+	margin-top: 30px;
+	color: var(--color3);
+}
+
+footer{
+	padding: 10px;
+	background-color: var(--color3);
+}
+
+footer p{
+	font-size: 1em;
+	text-align: center;
+}
